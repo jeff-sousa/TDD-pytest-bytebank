@@ -1,0 +1,12 @@
+[run]
+source = ./codigo #para que em vez de usar o codigo com pytest --cov
+#caminho antigo = pytest --cov=codigo
+
+
+[report]
+exclude_lines =
+    def __str__
+#para excluir a verificação onde tem esse metodo
+
+[html]
+directory = coverage_relatorio_html   #Mudar mudar a pasta onde é salvo o html, sera salvo na pasta coverage_relatorio_html

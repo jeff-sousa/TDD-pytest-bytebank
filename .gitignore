@@ -1,0 +1,19 @@
+# Ignorar ambiente virtual
+vennv/
+
+# Ignorar arquivos gerados automaticamente
+*.pyc
+*.pyo
+*.log
+__pycache__/
+build/
+dist/
+
+# Ignorar arquivos de configuração específicos do ambiente
+.vscode/
+.idea/
+.DS_Store
+
+# Ignorar chaves de API e senhas
+config.ini  # Exemplo de um arquivo de configuração separado
+secrets.py  # Exemplo de um arquivo contendo informações sensíveis
